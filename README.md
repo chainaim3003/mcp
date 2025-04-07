@@ -82,3 +82,7 @@ To configure your mcp in the claude desktop app, navigate to your `cluade_deskto
 }
 ```
 
+
+OPEN your claude Desktop app and click on the hammer icon to list the mcp servers you have. 
+
+You can collaborate and work on this project, kindly send an email if you have any questions [mail](pixelhubster@gmail.com)
