@@ -33,6 +33,11 @@ npm run build
 
 
 ### Configuring claude_desktop_config.json
+To configure your mcp in the claude desktop app, navigate to your `cluade_desktop_config.json` file on machine.
+
+**For windows:**  code $env:AppData\Claude\claude_desktop_config.json
+**For MacOs:** code ~/Library/Application\ Support/Claude/claude_desktop_config.json
+
 ```json
 {
   "mcpServers": {
@@ -47,16 +52,16 @@ npm run build
         "-i",
         "--rm",
         "--mount",
-        "type=bind,src=/Users/username/Desktop,dst=/projects/Desktop",
+        "type=bind,src=/Users/USERNAME/Desktop,dst=/projects/Desktop",
         "--mount",
-        "type=bind,src=/Users/username/Documents/mcp,dst=/projects/mcp",
+        "type=bind,src=/Users/USERNAME/Documents/mcp,dst=/projects/mcp",
         "mcp/filesystem",
         "/projects"
       ]
     },
     "OCR": {
       "command": "node",
-      "args": ["/Users/username/Documents/projects/mcp/ocr/build/index.js"],
+      "args": ["/Users/USERNAME/Documents/projects/mcp/ocr/build/index.js"],
       "timeout": 30000
     },
     "sqlite": {
