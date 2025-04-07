@@ -2,7 +2,7 @@
 A simple custom implementation of mcp server for Chainaim and Actus related content/development
 
 
-## Setup Instructionc
+## Setup Instruction
 Clone the repo
 ```bash
 git clone https://github.com/chainaim3003/mcp
