@@ -36,6 +36,7 @@ npm run build
 To configure your mcp in the claude desktop app, navigate to your `cluade_desktop_config.json` file on machine.
 
 **For windows:**  code $env:AppData\Claude\claude_desktop_config.json
+
 **For MacOs:** code ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 ```json
